@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "ESNext", // Использует современный стандарт модулей ESNext
+        "moduleResolution": "Bundler", // Разрешение модулей для сборщиков, таких как Webpack или Rollup
+        "target": "ES2020", // Компиляция кода до стандарта ES2020
+        "jsx": "react", // Поддержка JSX синтаксиса для React
+        "allowImportingTsExtensions": true, // Разрешает импорт файлов с расширением .ts
+        "strictNullChecks": true, // Включает строгую проверку на null и undefined
+        "strictFunctionTypes": true // Включает строгую проверку типов функций
+    },
+    "exclude": [
+        "node_modules", // Исключает папку node_modules из компиляции
+        "**/node_modules/*" // Исключает все вложенные папки node_modules
+    ]
+}
